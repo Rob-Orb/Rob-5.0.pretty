@@ -1,4 +1,4 @@
-(module RPi0_Template (layer F.Cu) (tedit 5BC7019C)
+(module RPi0_Template (layer F.Cu) (tedit 5BC70233)
   (fp_text reference REF** (at 5.715 -35.56) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -58,7 +58,7 @@
   (pad "" thru_hole circle (at 16.51 26.67) (size 6 6) (drill 2.74) (layers *.Cu *.Mask))
   (pad "" thru_hole circle (at 16.51 -31.75) (size 6 6) (drill 2.74) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step
-    (offset (xyz -8.25 26.75 0))
+    (offset (xyz -8.25 26.75 -1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
   )
